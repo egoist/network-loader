@@ -1,0 +1,39 @@
+{
+  "name": "network-loader",
+  "version": "0.0.0",
+  "description": "A webpack loader to load resource from the network.",
+  "repository": {
+    "url": "egoist/network-loader",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm run lint && echo 'no tests!'",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-generator": "^6.26.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0",
+    "filenamify": "^2.0.0",
+    "fs-extra": "^5.0.0",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "webpack": "^3.10.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "ignores": [
+      "example/**"
+    ]
+  }
+}
